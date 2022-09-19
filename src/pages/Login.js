@@ -2,8 +2,13 @@ import React from 'react'
 import "../assets/Login.css"
 function Login() {
   return (
-    <div>Login</div>
+    <div className='loginPage'>
+      <p>Sign in with google</p>
+      <button>
+        Go->
+      </button>
+    </div>
   )
 }
-
-export default Login
+// https://www.youtube.com/watch?v=zL0dKETbCNE
+export default Login  
