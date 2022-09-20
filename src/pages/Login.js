@@ -7,7 +7,7 @@ function Login({ setIsAuth }) {
     signInWithPopup(auth,provider).then((result) => {
       localStorage.setItem("isAuth",true);
       setIsAuth(true)
-
+      window.location.pathname = "/"
     })
   }
   return (
