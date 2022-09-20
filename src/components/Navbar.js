@@ -15,7 +15,7 @@ function Navbar({isAuth, setIsAuth}) {
     <div className='navbar'>
         <Link to="/">Home</Link>
         <Link to="/createpost">Create Post</Link>
-        {!isAuth?<Link to="/login">Login</Link>:<button onClick={signOutUser}>Log Out</button>}
+        {!isAuth?<Link to="/login">Login</Link>:<button id="logOutBtn" onClick={signOutUser}>Log Out</button>}
     </div>
   )
 }
