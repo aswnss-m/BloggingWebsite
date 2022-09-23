@@ -1,0 +1,26 @@
+.postCard{
+    background-color: red;
+    max-width:900px;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.postCard div{
+    max-width: 900px;
+}
+.postHeader{
+    display: inline-block;
+    width: inherit;
+}
+.postBody{
+    display: inline-block;
+    width:inherit;
+}
+.postBody p,h1{
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
