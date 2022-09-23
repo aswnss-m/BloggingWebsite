@@ -1,28 +1,31 @@
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap:1em;
     align-items: center;
-    background-color: var(--yellow);
-    color: var(--black);
+    background-color: var(--secondary-dark);
+    /* color: var(--black); */
     height: fit-content;
-    -webkit-box-shadow:0px 0px 179px 13px rgba(255,200,0,0.59);
-    -moz-box-shadow: 0px 0px 179px 13px rgba(255,200,0,0.59);
-    box-shadow: 0px 0px 179px 13px rgba(255,200,0,0.59);
+    -webkit-box-shadow:0px 0px 179px 13px rgba(255, 255, 255, 0.59);
+    -moz-box-shadow: 0px 0px 179px 13px rgba(255, 255, 255, 0.59);
+    box-shadow: 0px 0px 179px 13px rgba(255, 255, 255, 0.59);
 }
 .navbar>a{
     text-decoration: none;
     margin: .5em;
     padding: .5em;
     font-weight: 700;
-    color: var(--black);
+    color: #f7f7f7;
+    /* color: var(--accent-dark); */
     transition: transform .3s ease;
 }
 .navbar>a:hover{
     transform: translateY(-10px);
 }
 .navbar>a:focus{
-    color: var(--blue);
-    text-decoration: line-through var(--black);
+    /* color: var(--blue); */
+    color: #f7f7f7;
+    font-weight: 700;
 }
 #logOutBtn{    
     font-weight: 600;
